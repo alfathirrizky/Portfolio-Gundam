@@ -341,7 +341,8 @@ function App() {
                 { name: 'Power Apps', icon: 'https://msicons.com/icons/power-platform/PowerApps_scalable.svg' },
                 { name: 'Power BI', icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg' },
                 { name: 'Canva', icon: 'https://www.vectorlogo.zone/logos/canva/canva-ar21.svg' },
-                { name: 'GitHub', icon: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg' }
+                { name: 'GitHub', icon: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg' },
+                { name: 'Figma', icon: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg' }
               ].map((tool, idx) => (
                 <div key={idx} className="bg-white border border-gray-200 p-4 relative group hover:border-blue-500 transition-colors shadow-sm flex flex-col items-center justify-center h-28 hover:-translate-y-1 transform duration-300 gap-3">
                   {/* Sudut Mekanikal */}
